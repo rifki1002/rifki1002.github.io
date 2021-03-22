@@ -15,10 +15,11 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-img: url(woman-2701154__480.webp);
   background-size: cover;
-  color: white;
+  color: green;
   text-align: center;
+  
 }
 
 .top-wrapper h1 {
@@ -26,11 +27,16 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  color: black;
+}
+.top-wrapper h3{
+  color: red;
 }
 
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+  color: blue;
 }
 
 .btn-wrapper {
@@ -39,24 +45,25 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
+  color: black;
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: darkcyan;
 }
 
 .facebook {
-  background-color: #3b5998;
+  background-color: blueviolet;
   margin-right: 10px;
 }
 
 .twitter {
-  background-color: #55acee;
+  background-color: blue;
 }
 
 .btn {
   padding: 12px 24px;
-  color: white;
+  color: gold;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
@@ -80,6 +87,8 @@ header {
   /* Ubah z-index ke 10 */
   z-index: 10;
 }
+
+  
 
 .logo {
   width: 124px;
@@ -110,7 +119,6 @@ header {
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
   text-align: center;
 }
 
@@ -122,22 +130,30 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  color: red;
+}
+.heading h3{
+  color: black;
 }
 
 .lesson {
-  float: left;
+  float: right;
   width: 25%;
+  background-color: none;
 }
 
 .lesson-icon {
   position: relative;
+  border-image: 10px;
 }
+
 
 .lesson-icon p {
   position: absolute;
   top: 90px;
   width: 100%;
-  color: white;
+  color: red;
+  background-color: none;
 }
 
 .txt-contents {
@@ -145,7 +161,7 @@ header {
   display: inline-block;
   margin-top: 20px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: green;
 }
 
 .heading h3 {
@@ -160,9 +176,11 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: gold;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
+  color: red;
+  position: center;
 }
 
 .message:active {
@@ -171,15 +189,9 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
 
 footer {
   padding-top: 30px;
+  color: blue;
+  backgroud-img: url(notebook-1587527__480.webp);
 }
